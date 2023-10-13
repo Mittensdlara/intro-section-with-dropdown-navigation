@@ -1,0 +1,46 @@
+body {
+    font-family: 'Epilogue', sans-serif;
+}
+
+
+
+.hero-title {
+    font-size: 90px;
+    font-weight: 700;
+}
+
+/* .hero-img {
+height: 620px;
+    
+} */
+
+ul li {
+    font-weight: 500;
+    margin-left: 1rem;
+}
+
+.footer {
+    text-align: center;
+    font-size: 12px;
+    margin-top: 2rem;
+}
+
+.footer a {
+    text-decoration: none;
+    color: gray;
+    
+}
+
+/* @media (min-width:378px) {
+    .hero {
+        display: flex;
+        flex-direction: row;
+
+    }
+} */
+
+@media (max-width: 768px) {
+.hero-title {
+    font-size: 4rem;
+}
+  }
